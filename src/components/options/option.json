@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_options_options",
+  "info": {
+    "displayName": "option",
+    "icon": "grip-vertical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer"
+    },
+    "optionId": {
+      "type": "string"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "values.value"
+    }
+  }
+}

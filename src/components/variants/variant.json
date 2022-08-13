@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_variants_variants",
+  "info": {
+    "displayName": "variant",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "inventoryQuantity": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

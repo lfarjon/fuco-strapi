@@ -1,0 +1,32 @@
+{
+  "name": "fuco-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "gcp-build": "strapi build"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.3.2",
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/strapi": "4.3.2",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.7.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b7ed6a02-f917-4a35-8d3e-25cb0a2556f6"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
